@@ -1,0 +1,172 @@
+%% Working with russian language
+\usepackage{cmap}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\frenchspacing
+\usepackage{cancel}
+
+	
+\usepackage[normalem]{ulem}
+
+%% Working with russian language
+% \defaultfontfeatures{Ligatures={TeX},Renderer=Basic}
+% \setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
+% \setmainfont{Times New Roman}
+% \setsansfont{Comic Sans MS}
+% \setmonofont{Courier New}
+
+%% Russian Beamer
+% \newtheorem{rtheorem}{Теорема}
+% \newtheorem{rproof}{Доказательство}
+% \newtheorem{rexpamle}{Пример}
+
+%% Exta work with math
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{icomma}
+\usepackage{euscript}
+\usepackage{mathrsfs}
+\usepackage{gensymb}
+
+
+%%
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=Opt #1$}}{}}
+\newcommand*{\romannum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+%% Images
+\usepackage{graphicx}
+\graphicspath{%
+	{images}
+    {images/component_search}
+    {images/parts_design}
+    {images/system_modeling}
+    {images/task}
+    {images/Altium-Components}
+    {images/Altium-Draftsman}
+    {images/Altium-PCB}
+    {images/Altium-Schematic}
+    {images/Altium-Mechanical}
+    {images/Documentation}
+}
+\setlength\fboxsep{3pt}
+\setlength\fboxrule{1pt}
+\usepackage{wrapfig}
+\usepackage[lflt]{floatflt}
+\usepackage{subcaption}
+\usepackage{caption}
+\renewcommand\thesubfigure{\asbuk{subfigure}}
+\usepackage{wrapfig} % Обтекание рисунков и таблиц текстом
+
+%% Tables
+\usepackage{array,tabularx,tabulary,booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{float}
+\restylefloat{table}
+
+%% Programming
+\usepackage{etoolbox}
+
+\usepackage{lastpage}
+\usepackage{soul}
+\usepackage{csquotes}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+%% Список источников
+%\usepackage[style=gost-authoryear-min,maxcitenames=2,backend=biber,sorting=none]{biblatex}
+\usepackage[%
+backend=biber,% движок
+bibencoding=utf8,% кодировка bib файла
+sorting=none,% настройка сортировки списка литературы
+style=gost-numeric,% стиль цитирования и библиографии (по ГОСТ)
+language=autobib,% получение языка из babel/polyglossia, default: autobib % если ставить autocite или auto, то цитаты в тексте с указанием страницы, получат указание страницы на языке оригинала
+autolang=other,% многоязычная библиография
+clearlang=true,% внутренний сброс поля language, если он совпадает с языком из babel/polyglossia
+defernumbers=true,% нумерация проставляется после двух компиляций, зато позволяет выцеплять библиографию по ключевым словам и нумеровать не из большего списка
+sortcites=true,% сортировать номера затекстовых ссылок при цитировании (если в квадратных скобках несколько ссылок, то отображаться будут отсортированно, а не абы как)
+doi=false,% Показывать или нет ссылки на DOI
+isbn=false,% Показывать или нет ISBN, ISSN, ISRN
+]{biblatex}
+
+\addbibresource{include/coursework/references.bib}
+\DefineBibliographyStrings{russian}{%
+	bibliography = {Список источников},
+}
+
+\usepackage{pdfpages}
+
+
+
+\setcounter{tocdepth}{1}
+\usepackage[shortcuts]{extdash}
+\usepackage{verbatim}
+\usepackage{moreenum}
+
+%% Page
+\usepackage{extsizes}
+\usepackage{geometry}
+\geometry{top=20mm}
+\geometry{bottom=30mm}
+\geometry{left=15mm}
+\geometry{right=15mm}
+
+%% Page headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% \renewcommand{\headrulewidth}{0pt}
+\lhead{Лазба Филипп, РТ-33}
+\rhead{}
+
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.8}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+
+%% Line spacing
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{hyperref}
+\hypersetup{%
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Курсовая работа  по курсам <<Проектирование приёмо-передающих устройств в среде Keysight ADS>> <<Проектирование печатных плат>>},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+% Вложенные файлы
+\usepackage{attachfile}
+
+
+
+%%
+\renewcommand{\epsilon}{\ensuremath{\varepsilon}}
+\renewcommand{\phi}{\ensuremath{\varphi}}
+\renewcommand{\kappa}{\ensuremath{\varkappa}}
+\renewcommand{\le}{\ensuremath{\leqslant}}
+\renewcommand{\leq}{\ensuremath{\leqslant}}
+\renewcommand{\ge}{\ensuremath{\geqslant}}
+\renewcommand{\geq}{\ensuremath{\geqslant}}
+\renewcommand{\emptyset}{\varnothing}
+
+\newcommand{\bhline}[1]{\noalign{\hrule height #1pt}}
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\LARGE\normalfont\bfseries\filcenter}{}{1em}{}
+\titlespacing{\chapter}{0mm}{0mm}{5mm}
+
+\titleformat{\section}{\Large\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\subsection}{\large\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries\filcenter}{}{1em}{}
+
