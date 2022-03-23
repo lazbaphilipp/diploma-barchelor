@@ -1,5 +1,7 @@
 ############ COMMON #######################
 **.docx
+Project/Datasheets/LoRa/Ref-EvBoards/**
+!Project/Datasheets/LoRa/Ref-EvBoards/*.zip
 ############ ADS auxiliary files ##########
 
 ############ CST auxiliary files ##########
