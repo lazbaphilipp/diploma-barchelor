@@ -2,6 +2,7 @@
 **.docx
 Project/Datasheets/LoRa/Ref-EvBoards/**
 !Project/Datasheets/LoRa/Ref-EvBoards/*.zip
+**/Ignore
 ############ ADS auxiliary files ##########
 
 ############ CST auxiliary files ##########
