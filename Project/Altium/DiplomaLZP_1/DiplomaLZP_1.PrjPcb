@@ -42,7 +42,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=DiplomaLZP_1_Sheet1.SchDoc
+DocumentPath=МПСУ.464421.221 .SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -127,23 +127,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=DiplomaLZP_1.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
 DocumentPath=Q:\Temporal\Лазба.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -160,7 +143,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ONICJCBB
 
-[Document8]
+[Document7]
 DocumentPath=Q:\Temporal\Лазба.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -182,59 +165,59 @@ DocumentPath=Q:\Temporal\Лазба.cmp
 DItemRevisionGUID=
 
 [Parameter1]
-Name=PCBxIZMxD1
+Name=UZELxTYPExE3
 Value=
 
 [Parameter2]
-Name=PCBxIZMxSB
-Value=
-
-[Parameter3]
-Name=PCBxIZMxSP
-Value=
-
-[Parameter4]
-Name=PCBxIZMxT5M
-Value=00
-
-[Parameter5]
-Name=PCBxObozna4enie
-Value=АЕСН.XXXXXX.***
-
-[Parameter6]
-Name=PCBxTitle
-Value=Плата
-
-[Parameter7]
-Name=PCBxTYPExSB
-Value=СБ
-
-[Parameter8]
-Name=UZELxE3xIZVESHENIE
-Value=
-
-[Parameter9]
-Name=UZELxIZMxE3
-Value=
-
-[Parameter10]
-Name=UZELxIZMxSB
-Value=
-
-[Parameter11]
-Name=UZELxObozna4enie
-Value=АЕСН.XXXXXX.XXX
-
-[Parameter12]
-Name=UZELxPERVxPrimenenie
-Value=АЕСН.000000.XXX
-
-[Parameter13]
 Name=UZELxTitle
 Value=Плата
 
+[Parameter3]
+Name=UZELxPERVxPrimenenie
+Value=МПСУ.464421.221
+
+[Parameter4]
+Name=UZELxObozna4enie
+Value=МПСУ.464421.221
+
+[Parameter5]
+Name=UZELxIZMxSB
+Value=
+
+[Parameter6]
+Name=UZELxIZMxE3
+Value=
+
+[Parameter7]
+Name=UZELxE3xIZVESHENIE
+Value=
+
+[Parameter8]
+Name=PCBxTYPExSB
+Value=СБ
+
+[Parameter9]
+Name=PCBxTitle
+Value=Плата
+
+[Parameter10]
+Name=PCBxObozna4enie
+Value=АЕСН.XXXXXX.***
+
+[Parameter11]
+Name=PCBxIZMxT5M
+Value=00
+
+[Parameter12]
+Name=PCBxIZMxSP
+Value=
+
+[Parameter13]
+Name=PCBxIZMxSB
+Value=
+
 [Parameter14]
-Name=UZELxTYPExE3
+Name=PCBxIZMxD1
 Value=
 
 [Configuration1]
@@ -253,7 +236,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -359,7 +342,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -439,7 +422,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -461,7 +444,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -533,7 +516,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -590,16 +573,11 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=GOSTBOM
-OutputName9=GOST BOM
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -707,7 +685,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -751,7 +729,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -812,7 +790,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
+TargetPrinter=Kyocera ECOSYS M2040dn KX
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1184,9 +1162,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Лазба.SchLib
-ComponentDesignItemID0=SX1257
-ComponentSymbolReference0=SX1257
+ComponentLibraryIdentifier0=IC_V2_0.SchLib
+ComponentDesignItemID0=SX1257IWLTRT
+ComponentSymbolReference0=SX1257IWLTRT
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1232,6 +1210,11 @@ ParameterName13=Subcategory
 ParameterUpdate13=1
 ParameterName14=System
 ParameterUpdate14=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=SX1257IWLTRT
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
