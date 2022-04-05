@@ -39,7 +39,7 @@ portColor 5
 backgroundColor 42
 foregroundColor 10
 globalArcResolution 5.000000
-selectFilter 1535
+selectFilter 1519
 selectMode 1
 shapeSelectMode 2
 selectBoxSize 10.000000
@@ -73,7 +73,7 @@ placePinPopUp 1
 checkIntersection 0
 checkBinding 0
 shoveConnectionsOnCompoenentsParamChange 1
-plotPinNumbers 0
+plotPinNumbers 1
 plotPinNames 0
 plotPinNetNames 0
 plotPins 1
@@ -178,7 +178,7 @@ unitsRes 1
 unitsCond 4
 unitsInd 5
 unitsCap 5
-unitsLng 1
+unitsLng 4
 unitsTime 5
 unitsAng 0
 unitsPower 4

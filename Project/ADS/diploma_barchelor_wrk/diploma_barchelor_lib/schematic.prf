@@ -5,7 +5,7 @@ gridSnapX 0.125000
 gridSnapY 0.125000
 tapLength 25.000000
 portSize 4.000000
-unitsLng 1
+unitsLng 4
 instNameLayerID ads_device:ads_annotate
 instIDLayerID ads_annotate:ads_drawing7
 instParam1LayerID ads_annotate:drawing

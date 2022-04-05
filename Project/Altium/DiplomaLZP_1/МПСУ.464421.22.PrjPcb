@@ -42,13 +42,30 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=МПСУ.464421.221 .SchDoc
+DocumentPath=МПСУ.464421.22-01 BBP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OPUEHAWY
+
+[Document2]
+DocumentPath=МПСУ.464421.22-01 RF Interface.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -58,7 +75,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YDMXPSVM
 
-[Document2]
+[Document3]
 DocumentPath=DiplomaLZP_1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -75,7 +92,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
+[Document4]
 DocumentPath=DiplomaLZP_1_СП.tdd
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -92,7 +109,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=DiplomaLZP_1_ПЭ3.tdd
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -109,7 +126,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=DiplomaLZP_1_ВП.tdd
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -126,7 +143,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document7]
 DocumentPath=Q:\Temporal\Лазба.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -143,7 +160,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ONICJCBB
 
-[Document7]
+[Document8]
 DocumentPath=Q:\Temporal\Лазба.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -160,6 +177,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MJAEQJBB
 
+[Document9]
+DocumentPath=МПСУ.464421.22-01 RF_OUT.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LNNITXHS
+
+[Document10]
+DocumentPath=МПСУ.464421.22-01 RF_IN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KNLAUEIM
+
+[Document11]
+DocumentPath=PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AHHYQYMO
+
 [GeneratedDocument1]
 DocumentPath=Q:\Temporal\Лазба.cmp
 DItemRevisionGUID=
@@ -174,11 +242,11 @@ Value=Плата
 
 [Parameter3]
 Name=UZELxPERVxPrimenenie
-Value=МПСУ.464421.221
+Value=МПСУ.464421.22-01
 
 [Parameter4]
 Name=UZELxObozna4enie
-Value=МПСУ.464421.221
+Value=МПСУ.464421.22-01
 
 [Parameter5]
 Name=UZELxIZMxSB
@@ -202,7 +270,7 @@ Value=Плата
 
 [Parameter10]
 Name=PCBxObozna4enie
-Value=АЕСН.XXXXXX.***
+Value=МПСУ.464421.22-01
 
 [Parameter11]
 Name=PCBxIZMxT5M
@@ -236,7 +304,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -342,7 +410,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -422,7 +490,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -444,7 +512,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -516,7 +584,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -573,11 +641,16 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
+OutputType9=GOSTBOM
+OutputName9=GOST BOM
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -685,7 +758,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -729,7 +802,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -790,7 +863,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M2040dn KX
+TargetPrinter=PDF-XChange 5.0 for ABBYY FineReader 15
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files

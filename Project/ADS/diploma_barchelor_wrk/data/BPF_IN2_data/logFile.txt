@@ -1,0 +1,11 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+SP SP1[1] <diploma_barchelor_lib:BPF IN2:schematic>   freq=(834.5 MHz->894.5 MHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.48 seconds.
+
