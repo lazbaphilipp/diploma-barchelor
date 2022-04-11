@@ -1,0 +1,18 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Tue Apr 12 21:02:15 2022
+      Running on host: "Lazba-PC"
+      In Directory: "D:\GitHub\diploma-barchelor\Project\ADS\diploma_barchelor_wrk\data"
+      Process ID: 7668
+
+Pt DC convergence is used.
+
+SP SP1[1] <diploma_barchelor_lib:PA_SCH:schematic>   freq=(861 MHz->871 MHz)
+
+
+Resource usage:
+  Total stopwatch time     =     5.37 seconds.
+

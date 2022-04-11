@@ -1,11 +1,17 @@
 
-hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
-    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Mon Apr 11 13:49:18 2022
+      Running on host: "Lazba-PC"
+      In Directory: "D:\GitHub\diploma-barchelor\Project\ADS\diploma_barchelor_wrk\data"
+      Process ID: 7116
 
 
 SP SP1[1] <diploma_barchelor_lib:BALUN_SCH:schematic>   freq=(861 MHz->871 MHz)
 
 
 Resource usage:
-  Total stopwatch time     =     0.51 seconds.
+  Total stopwatch time     =     2.89 seconds.
 
