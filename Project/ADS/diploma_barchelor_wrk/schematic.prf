@@ -3,8 +3,8 @@ pathMiterPercent 0.000000
 pathEndCap 2
 pathLayerName default
 textFontName Arial For CAE
-textPoint 12
-textJustification 9
+textPoint 5
+textJustification 34
 textAngle 0.000000
 textAbsolute 0
 instNameLayer 6
@@ -26,7 +26,7 @@ scaleX 1.000000
 scaleY 1.000000
 toArcRadius 0.300000
 miterVertexLength 1.000000
-portOrientation 0.000000
+portOrientation 10000.000000
 plottingDepth 10
 bboxColor 0
 selectColor 0
@@ -67,7 +67,7 @@ schemUnits 2
 layoutPrec -2
 layoutIncr 1
 layoutUnits 1
-backupCount 20
+backupCount 10000
 placePopUp 0
 placePinPopUp 1
 checkIntersection 0

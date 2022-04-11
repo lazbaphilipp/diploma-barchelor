@@ -1,5 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic y1="-9" x1="-1929" cell="BPF IN2" height="999" geom="1,1,2,967,327,1536,824,1920,1080" view="schematic" lib="diploma_barchelor_lib" width="1920"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

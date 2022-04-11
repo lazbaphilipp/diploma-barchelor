@@ -44,7 +44,7 @@ selectMode 1
 shapeSelectMode 2
 selectBoxSize 10.000000
 selectPointSize 8.000000
-entryMode 0
+entryMode 1
 rotationIncrement 90.000000
 gridDisplayX 2
 gridDisplayY 2
@@ -54,7 +54,7 @@ majorGridDisplayX 5
 majorGridDisplayY 5
 majorGridDisplayOn 1
 gridDisplayMode 0
-gridSnapOn 1
+gridSnapOn 0
 gridSnapMode 3
 gridColor 104
 windowLLX -5.000000

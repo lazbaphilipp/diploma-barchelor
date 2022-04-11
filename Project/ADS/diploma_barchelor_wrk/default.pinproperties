@@ -8,7 +8,7 @@
     <Radius>1</Radius>
     <EdgeLength>1</EdgeLength>
     <AutoLayerSnapping>1</AutoLayerSnapping>
-    <AutoAngleSnapping>1</AutoAngleSnapping>
+    <AutoAngleSnapping>0</AutoAngleSnapping>
     <DifferentialPort>0</DifferentialPort>
     <DifferentialPortNegSuffix>_NEG</DifferentialPortNegSuffix>
     <DifferentialPortPosSuffix>_POS</DifferentialPortPosSuffix>

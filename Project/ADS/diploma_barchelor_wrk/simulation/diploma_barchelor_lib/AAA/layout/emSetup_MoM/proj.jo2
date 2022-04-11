@@ -1,0 +1,16 @@
+(resolution 10000)
+(line 255
+  (data -72250 -9000 -15000 -9000)
+  (label "drc_result/000000/ Polyline(s) and/or wire(s) containing edge (-7.2250,-0.9000) -> (-1.5000,-0.9000) on STRIP layer <mask 1> have been ignored_1" 126 -43625 -9000))
+(line 255
+  (data -72250 9000 -15000 9000)
+  (label "drc_result/000000/ Polyline(s) and/or wire(s) containing edge (-7.2250,0.9000) -> (-1.5000,0.9000) on STRIP layer <mask 1> have been ignored_2" 126 -43625 9000))
+(line 255
+  (data 15000 -9000 72250 -9000)
+  (label "drc_result/000000/ Polyline(s) and/or wire(s) containing edge (1.5000,-0.9000) -> (7.2250,-0.9000) on STRIP layer <mask 1> have been ignored_3" 126 43625 -9000))
+(line 255
+  (data 15000 8900 72250 8900)
+  (label "drc_result/000000/ Polyline(s) and/or wire(s) containing edge (1.5000,0.8900) -> (7.2250,0.8900) on STRIP layer <mask 1> have been ignored_4" 126 43625 8900))
+(line 255
+  (data 72250 8900 72250 9000)
+  (label "drc_result/000000/ Polyline(s) and/or wire(s) containing edge (7.2250,0.8900) -> (7.2250,0.9000) on STRIP layer <mask 1> have been ignored_5" 126 72250 8950))

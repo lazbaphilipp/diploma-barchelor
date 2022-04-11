@@ -1,0 +1,55 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  "D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/simulation/diploma_barchelor_lib/FP3P7-814-10 LINE/layout/emSetup_viz3D/EMDS4ADS.prf" 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material __BOTTOM     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object __BOTTOM_2     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond_3     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_4     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_5     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object __BOTTOM_2 1  1  50  
+  Object cond_3 1  1  50  
+  Object cond_4 1  1  50  
+  Object cond_5 1  1  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position     1.9281045913696289e+01     -1.8546436309814453e+01      1.9037488937377930e+01  
+  Target     1.6080460548400879e+00     -8.7343627214431763e-01      1.3644890785217285e+00  
+  Up    -4.0824839472770691e-01      4.0824833512306213e-01      8.1649672985076904e-01  
+      1.2244215011596680e+01      1.2244215011596680e+01  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

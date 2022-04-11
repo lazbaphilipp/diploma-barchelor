@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="14" Version="100">
+<ADSWorkspace Revision="70" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="de_sim.cfg" />
@@ -65,15 +65,11 @@
         <Dataset Name="BPF_test.ds" />
         <Data_Files Name="BPF_test.ds" />
         <Data_Files Name="BPF_test_data\logFile.txt" />
-        <Substrate Name="diploma_barchelor_lib:tech.subst" />
         <Log Name="readdxf.log" />
         <Dataset Name="SPF5043Z.ds" />
         <Data_Files Name="SPF5043Z.ds" />
         <Data_Files Name="SPF5043Z_data\logFile.txt" />
         <Data_Files Name="S_Params\SPF-5043_DeEmbed_W60_D8_5V_preliminary.s2p" />
-        <Cell Name="diploma_barchelor_lib:SPF5043Z_SCH" />
-        <Cell Name="diploma_barchelor_lib:SPF5043Z" />
-        <Data_Display Name="SPF5043Z_SCH.dds" />
         <Preferences Name="ads_builtin_lay.prf" />
         <Preferences Name="ads_datacmps_lay.prf" />
         <Preferences Name="ads_rflib_lay.prf" />
@@ -82,16 +78,110 @@
         <Dataset Name="SPF5043Z_SCH.ds" />
         <Data_Files Name="SPF5043Z_SCH.ds" />
         <Data_Files Name="SPF5043Z_SCH_data\logFile.txt" />
-        <Dataset Name="Еуые_ыср.ds" />
-        <Data_Files Name="Еуые_ыср.ds" />
-        <Data_Files Name="Еуые_ыср_data\logFile.txt" />
-        <Cell Name="diploma_barchelor_lib:Test_sch" />
-        <Cell Name="diploma_barchelor_lib:BPF IN2" />
-        <Cell Name="diploma_barchelor_lib:BPF IN1" />
         <Dataset Name="BPF_IN2.ds" />
         <Data_Files Name="BPF_IN2.ds" />
         <Data_Files Name="BPF_IN2_data\logFile.txt" />
         <Data_Files Name="S_Params\s.s2p" />
         <Data_Files Name="S_Params\u.s2p" />
+        <Dataset Name="Test_sch.ds" />
+        <Data_Files Name="Test_sch.ds" />
+        <Data_Files Name="Test_sch_data\logFile.txt" />
+        <Folder Name="Elements">
+            <Cell Name="diploma_barchelor_lib:FP3P7-814-10" />
+            <Cell Name="diploma_barchelor_lib:SPF5043Z" />
+            <Cell Name="diploma_barchelor_lib:BalUn JT" />
+            <Cell Name="diploma_barchelor_lib:SX1257" />
+        </Folder>
+        <Log Name="readegs.log" />
+        <Dataset Name="AAA.ds" />
+        <Dataset Name="AAAA2_MomUW.ds" />
+        <Dataset Name="AAAA2_MomUW_a.ds" />
+        <Dataset Name="AAAA_MomUW.ds" />
+        <Dataset Name="AAAA_MomUW_a.ds" />
+        <Data_Files Name="AAA.ds" />
+        <Data_Files Name="AAAA2_MomUW.ds" />
+        <Data_Files Name="AAAA2_MomUW_a.ds" />
+        <Data_Files Name="AAAA_MomUW.ds" />
+        <Data_Files Name="AAAA_MomUW_a.ds" />
+        <Data_Files Name="AAA_data\logFile.txt" />
+        <Folder Name="Test Circuits">
+            <Data_Display Name="AAA.dds" />
+            <Cell Name="diploma_barchelor_lib:AAAA" />
+            <Cell Name="diploma_barchelor_lib:AAAA2" />
+            <Cell Name="diploma_barchelor_lib:TEST_C1" />
+            <Data_Display Name="TEST_C1.dds" />
+        </Folder>
+        <Dataset Name="SPF5043Z_SCH_CPWG.ds" />
+        <Data_Files Name="SPF5043Z_SCH_CPWG.ds" />
+        <Data_Files Name="SPF5043Z_SCH_CPWG_data\logFile.txt" />
+        <Substrate Name="diploma_barchelor_lib:tech.subst" />
+        <Dataset Name="AAA_MomUW.ds" />
+        <Data_Files Name="AAA_MomUW.ds" />
+        <Dataset Name="AAA_MomUW_a.ds" />
+        <Data_Files Name="AAA_MomUW_a.ds" />
+        <Dataset Name="BPF_IN2_TOPOLOGY.ds" />
+        <Data_Files Name="BPF_IN2_TOPOLOGY.ds" />
+        <Data_Files Name="BPF_IN2_TOPOLOGY_data\logFile.txt" />
+        <Dataset Name="FP3P7_814_10_LINE_MomUW.ds" />
+        <Data_Files Name="FP3P7_814_10_LINE_MomUW.ds" />
+        <Dataset Name="FP3P7_814_10_LINE_MomUW_a.ds" />
+        <Data_Files Name="FP3P7_814_10_LINE_MomUW_a.ds" />
+        <Dataset Name="SPF5043Z_LINE_MomUW.ds" />
+        <Data_Files Name="SPF5043Z_LINE_MomUW.ds" />
+        <Dataset Name="SPF5043Z_LINE_MomUW_a.ds" />
+        <Data_Files Name="SPF5043Z_LINE_MomUW_a.ds" />
+        <Dataset Name="SPF5043Z_TOPOLOGY.ds" />
+        <Data_Files Name="SPF5043Z_TOPOLOGY.ds" />
+        <Data_Files Name="SPF5043Z_TOPOLOGY_data\logFile.txt" />
+        <Dataset Name="TEST_C1.ds" />
+        <Data_Files Name="TEST_C1.ds" />
+        <Data_Files Name="TEST_C1_data\logFile.txt" />
+        <Dataset Name="BPF_IN1.ds" />
+        <Data_Files Name="BPF_IN1.ds" />
+        <Data_Files Name="BPF_IN1_data\logFile.txt" />
+        <Dataset Name="FP3P7_814_10_LINE_IN2_MomUW.ds" />
+        <Dataset Name="FP3P7_814_10_LINE_IN1_MomUW.ds" />
+        <Data_Files Name="FP3P7_814_10_LINE_IN1_MomUW.ds" />
+        <Dataset Name="BPF_IN1_TOPOLOGY.ds" />
+        <Data_Files Name="BPF_IN1_TOPOLOGY.ds" />
+        <Data_Files Name="BPF_IN1_TOPOLOGY_data\logFile.txt" />
+        <Folder Name="Input Circuit">
+            <Folder Name="AMP IN">
+                <Cell Name="diploma_barchelor_lib:SPF5043Z_SCH_CPWG" />
+                <Data_Display Name="SPF5043Z_SCH_CPWG.dds" />
+                <Cell Name="diploma_barchelor_lib:SPF5043Z_TOPOLOGY" />
+                <Cell Name="diploma_barchelor_lib:SPF5043Z_LINE" />
+                <Data_Display Name="SPF5043Z_TOPOLOGY.dds" />
+            </Folder>
+            <Folder Name="BPF IN1">
+                <Cell Name="diploma_barchelor_lib:BPF IN1" />
+                <Cell Name="diploma_barchelor_lib:FP3P7-814-10 LINE IN1" />
+                <Cell Name="diploma_barchelor_lib:BPF IN1 TOPOLOGY" />
+                <Data_Display Name="BPF IN1.dds" />
+                <Data_Display Name="BPF IN1 TOPOLOGY.dds" />
+            </Folder>
+            <Folder Name="BPF IN2">
+                <Cell Name="diploma_barchelor_lib:BPF IN2" />
+                <Data_Display Name="BPF IN2.dds" />
+                <Cell Name="diploma_barchelor_lib:BPF IN2 TOPOLOGY" />
+                <Data_Display Name="BPF IN2 TOPOLOGY.dds" />
+                <Data_Display Name="FP3P7-814-10 LINE.dds" />
+                <Cell Name="diploma_barchelor_lib:FP3P7-814-10 LINE IN2" />
+            </Folder>
+            <Cell Name="diploma_barchelor_lib:INPL" />
+            <Data_Display Name="INPL.dds" />
+        </Folder>
+        <Folder Name="Output Circuit">
+            <Folder Name="BALUN" />
+        </Folder>
+        <Dataset Name="INPL.ds" />
+        <Data_Files Name="INPL.ds" />
+        <Data_Files Name="INPL_data\logFile.txt" />
+        <Data_Display Name="BALUN_SCH.dds" />
+        <Dataset Name="BALUN_SCH.ds" />
+        <Data_Files Name="BALUN_SCH.ds" />
+        <Data_Files Name="BALUN_SCH_data\logFile.txt" />
+        <Data_Files Name="S_Params\balun.s3p" />
+        <Cell Name="diploma_barchelor_lib:BALUN_SCH" />
     </Workspace>
 </ADSWorkspace>

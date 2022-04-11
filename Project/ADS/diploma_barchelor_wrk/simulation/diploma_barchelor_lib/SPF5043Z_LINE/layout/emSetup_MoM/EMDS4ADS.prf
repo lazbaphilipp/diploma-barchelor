@@ -1,0 +1,59 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/simulation/diploma_barchelor_lib/SPF5043Z_LINE/layout/emSetup_MoM/EMDS4ADS.prf 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material __BOTTOM     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object __BOTTOM_2     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond_3     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_4     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_5     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_6     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_7     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object __BOTTOM_2 1  0  50  
+  Object cond_3 1  0  50  
+  Object cond_4 1  0  50  
+  Object cond_5 1  0  50  
+  Object cond_6 1  0  50  
+  Object cond_7 1  0  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position     2.8726932525634766e+01     -2.8899436950683594e+01      3.0276937484741211e+01  
+  Target    -1.0500001907348633e+00      8.7750005722045898e-01      5.0000000000000000e-01  
+  Up    -4.0824827551841736e-01      4.0824839472770691e-01      8.1649661064147949e-01  
+      2.0630065917968750e+01      2.0630065917968750e+01  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+
