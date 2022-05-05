@@ -1,0 +1,18 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Wed Apr 27 21:32:06 2022
+      Running on host: "Lazba-PC"
+      In Directory: "D:\GitHub\diploma-barchelor\Project\ADS\diploma_barchelor_wrk\data"
+      Process ID: 9004
+
+
+DC DC1[1] <diploma_barchelor_lib:TEST_C2:schematic>  
+.
+DC convergence achieved in 28 iterations.
+
+Resource usage:
+  Total stopwatch time     =     2.97 seconds.
+

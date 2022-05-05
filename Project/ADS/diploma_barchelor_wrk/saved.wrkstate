@@ -1,9 +1,11 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <Schematic y1="-8" view="schematic" width="1920" x1="-1928" lib="diploma_barchelor_lib" cell="BPF IN1 TOPOLOGY" height="1028" geom="1,1,3,245,88,1536,824,1920,1080"/>
-        <Schematic y1="-8" view="schematic" width="1920" x1="-1928" lib="diploma_barchelor_lib" cell="BPF IN2 TOPOLOGY" height="1028" geom="1,1,3,265,108,1536,824,1920,1080"/>
-        <Schematic y1="-8" view="schematic" width="1920" x1="-1928" lib="diploma_barchelor_lib" cell="SPF5043Z_TOPOLOGY" height="1028" geom="1,1,3,285,128,1536,824,1920,1080"/>
+        <Schematic height="485" geom="1,2,0,8,557,944,485,1920,1080" view="schematic" cell="OPL" x1="-3840" width="944" y1="527" lib="diploma_barchelor_lib"/>
+        <Schematic height="485" geom="1,2,0,8,30,944,485,1920,1080" view="schematic" cell="BALUN+BPF_TOPOLOGY" x1="-3840" width="944" y1="0" lib="diploma_barchelor_lib"/>
+        <Schematic height="487" geom="1,2,0,968,555,944,487,1920,1080" view="schematic" cell="LPF_SCH" x1="-2880" width="944" y1="525" lib="diploma_barchelor_lib"/>
+        <Schematic height="487" geom="1,2,0,968,30,944,487,1920,1080" view="schematic" cell="PA_SCH" x1="-2880" width="944" y1="0" lib="diploma_barchelor_lib"/>
+        <DDS name="TEST_C2.dds"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

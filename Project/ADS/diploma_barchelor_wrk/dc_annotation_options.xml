@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dc_annotation_options>
+ <options library="diploma_barchelor_lib" view="schematic" cell="TEST_C2" ToggleVoltage="true"/>
+</dc_annotation_options>
