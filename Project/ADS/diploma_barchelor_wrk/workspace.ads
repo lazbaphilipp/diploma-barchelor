@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="97" Version="100">
+<ADSWorkspace Revision="106" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="de_sim.cfg" />
@@ -100,11 +100,9 @@
         <Data_Files Name="AAAA_MomUW_a.ds" />
         <Data_Files Name="AAA_data\logFile.txt" />
         <Folder Name="Test Circuits">
-            <Data_Display Name="AAA.dds" />
-            <Cell Name="diploma_barchelor_lib:AAAA" />
-            <Cell Name="diploma_barchelor_lib:AAAA2" />
+            <Cell Name="diploma_barchelor_lib:TEST_C2" />
+            <Data_Display Name="TEST_C2.dds" />
             <Cell Name="diploma_barchelor_lib:TEST_C1" />
-            <Data_Display Name="TEST_C1.dds" />
         </Folder>
         <Dataset Name="SPF5043Z_SCH_CPWG.ds" />
         <Data_Files Name="SPF5043Z_SCH_CPWG.ds" />
@@ -170,6 +168,7 @@
                 <Data_Display Name="coupler.dds" />
                 <Cell Name="diploma_barchelor_lib:coupler_em" />
                 <Cell Name="diploma_barchelor_lib:coupler_line" />
+                <Data_Display Name="coupler_line.dds" />
             </Folder>
         </Folder>
         <Folder Name="Output Circuit">
@@ -189,6 +188,7 @@
                 <Data_Display Name="LPF_SCH.dds" />
             </Folder>
             <Cell Name="diploma_barchelor_lib:OPL" />
+            <Data_Display Name="OPL.dds" />
         </Folder>
         <Dataset Name="INPL.ds" />
         <Data_Files Name="INPL.ds" />
@@ -224,7 +224,6 @@
         <Data_Files Name="dc_annotation\diploma_barchelor_lib_%O%P%L_schematic\annotation_map.xml" />
         <Data_Files Name="OPL.ds" />
         <Data_Files Name="OPL_data\logFile.txt" />
-        <Data_Display Name="OPL.dds" />
         <Log Name="readdxf.log" />
         <Preferences Name="ads_behavioral_lay.prf" />
         <Library Name="ads_verification_test_bench" />
@@ -235,5 +234,16 @@
         <Data_Files Name="coupler_MomUW.ds" />
         <Dataset Name="coupler_em_MomUW.ds" />
         <Data_Files Name="coupler_em_MomUW.ds" />
+        <Log Name="writedxf.log" />
+        <Dataset Name="coupler_em_MomUW_a.ds" />
+        <Dataset Name="coupler_line.ds" />
+        <Dataset Name="TEST_C2.ds" />
+        <Data_Files Name="coupler_em_MomUW_a.ds" />
+        <Data_Files Name="coupler_line.ds" />
+        <Data_Files Name="coupler_line_data\logFile.txt" />
+        <Data_Files Name="dc_annotation\diploma_barchelor_lib_%T%E%S%T_%C2_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\diploma_barchelor_lib_%T%E%S%T_%C2_schematic\annotation_map.xml" />
+        <Data_Files Name="TEST_C2.ds" />
+        <Data_Files Name="TEST_C2_data\logFile.txt" />
     </Workspace>
 </ADSWorkspace>

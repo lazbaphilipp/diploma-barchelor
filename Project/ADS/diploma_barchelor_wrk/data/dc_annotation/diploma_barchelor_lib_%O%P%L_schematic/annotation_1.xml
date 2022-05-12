@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DCOPData Simulator="hpeesofsim" Time="Вт апр 12 23:14:53 2022" Version="1.0">
+<DCOPData Time="Чт май 12 03:39:10 2022" Version="1.0" Simulator="hpeesofsim">
  <Controller name="SP1">
   <SweepCondition>
    <P>freq: 8.6100000000000000e+08</P>
@@ -56,7 +56,7 @@
    <V>X1.X1.P7: 0.0000000000000000e+00</V>
    <V>X1.X1.P8: 0.0000000000000000e+00</V>
    <V>X1.X1.P9: 0.0000000000000000e+00</V>
-   <V>X1.X1.ref: 0.0000000000000000e+00</V>
+   <V>X1.X1.Ref: 0.0000000000000000e+00</V>
    <V>X2.N__10: 0.0000000000000000e+00</V>
    <V>X2.N__2: 0.0000000000000000e+00</V>
    <V>X2.N__3: 0.0000000000000000e+00</V>

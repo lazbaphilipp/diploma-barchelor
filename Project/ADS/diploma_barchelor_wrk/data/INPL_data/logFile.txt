@@ -7,5 +7,5 @@ SP SP1[1] <diploma_barchelor_lib:INPL:schematic>   freq=(861 MHz->871 MHz)
 
 
 Resource usage:
-  Total stopwatch time     =     0.48 seconds.
+  Total stopwatch time     =     0.51 seconds.
 

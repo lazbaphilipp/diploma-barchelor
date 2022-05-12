@@ -1,9 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Schematic y1="-9" height="999" lib="diploma_barchelor_lib" cell="BALUN+BPF_SCH" width="1920" view="schematic" x1="-1929" geom="1,1,3,968,30,944,487,1920,1080"/>
-        <Schematic y1="-9" height="999" lib="diploma_barchelor_lib" cell="coupler" width="1920" view="schematic" x1="-1929" geom="1,1,3,988,50,944,487,1920,1080"/>
-        <Layout y1="-9" height="999" lib="diploma_barchelor_lib" cell="coupler_em" width="1920" view="layout" x1="-1929" geom="1,1,3,1,38,1536,824,1920,1080"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

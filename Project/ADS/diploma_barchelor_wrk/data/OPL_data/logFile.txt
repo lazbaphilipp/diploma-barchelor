@@ -1,12 +1,6 @@
 
-hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
-    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
-
-
-***** Simulation started at Tue Apr 12 23:14:48 2022
-      Running on host: "Lazba-PC"
-      In Directory: "D:\GitHub\diploma-barchelor\Project\ADS\diploma_barchelor_wrk\data"
-      Process ID: 7668
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
 
 Pt DC convergence is used.
 Warning detected by hpeesofsim during TRAN analysis `SP1'.
@@ -19,27 +13,27 @@ Warning detected by hpeesofsim during TRAN analysis `SP1'.
 SP SP1[1] <diploma_barchelor_lib:OPL:schematic>   freq=(861 MHz->871 MHz)
 Warning detected by hpeesofsim during SP analysis `SP1'.
     The DC (0 Hz) value has not been specified in the Touchstone file
-    'D:/GitHub/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'.
+    'D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'.
 Warning detected by hpeesofsim during SP analysis `SP1'.
-    Data in the Touchstone file `D:/GitHub/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'
+    Data in the Touchstone file `D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'
     does not cover the requested value of `freq'.
     Therefore, the required data was obtained by extrapolation.
 Warning detected by hpeesofsim during SP analysis `SP1'.
     The DC (0 Hz) value has not been specified in the Touchstone file
-    'D:/GitHub/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/BPF.s2p'.
+    'D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/BPF.s2p'.
 Warning detected by hpeesofsim during SP analysis `SP1'.
-    Data in the Touchstone file `D:/GitHub/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/BPF.s2p'
+    Data in the Touchstone file `D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/BPF.s2p'
     does not cover the requested value of `freq'.
     Therefore, the required data was obtained by extrapolation.
 Warning detected by hpeesofsim during SP analysis `SP1'.
     The DC (0 Hz) value has not been specified in the Touchstone file
-    'D:/GitHub/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/LPF.s2p'.
+    'D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/LPF.s2p'.
 Warning detected by hpeesofsim during SP analysis `SP1'.
-    Data in the Touchstone file `D:/GitHub/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/LPF.s2p'
+    Data in the Touchstone file `D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/LPF.s2p'
     does not cover the requested value of `freq'.
     Therefore, the required data was obtained by extrapolation.
 
 
 Resource usage:
-  Total stopwatch time     =     5.44 seconds.
+  Total stopwatch time     =     0.55 seconds.
 

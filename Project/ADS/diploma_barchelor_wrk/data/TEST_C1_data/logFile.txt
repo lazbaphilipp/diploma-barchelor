@@ -1,20 +1,12 @@
 
-hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
-    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
 
 
-***** Simulation started at Tue Apr 12 20:55:24 2022
-      Running on host: "Lazba-PC"
-      In Directory: "D:\GitHub\diploma-barchelor\Project\ADS\diploma_barchelor_wrk\data"
-      Process ID: 7724
-
-Warning detected by hpeesofsim in topology check during circuit set up.
-    Number of nodes with no DC path to ground (topology corrected): 3
-
-
-SP SP1[1] <diploma_barchelor_lib:TEST_C1:schematic>   freq=746 MHz
-
+DC DC1[1] <diploma_barchelor_lib:TEST_C1:schematic>  
+.
+DC convergence achieved in 28 iterations.
 
 Resource usage:
-  Total stopwatch time     =     5.10 seconds.
+  Total stopwatch time     =     0.46 seconds.
 
