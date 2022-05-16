@@ -144,40 +144,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
-DocumentPath=Q:\Temporal\Лазба.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ONICJCBB
-
-[Document8]
-DocumentPath=Q:\Temporal\Лазба.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MJAEQJBB
-
-[Document9]
 DocumentPath=МПСУ.464421.22-01 RF_OUT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -194,7 +160,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LNNITXHS
 
-[Document10]
+[Document8]
 DocumentPath=МПСУ.464421.22-01 RF_IN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -211,7 +177,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KNLAUEIM
 
-[Document11]
+[Document9]
 DocumentPath=МПСУ.464421.22-01 Switch,GPS, IO Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -228,7 +194,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AEADEACW
 
-[Document12]
+[Document10]
 DocumentPath=МПСУ.464421.22-01 Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -245,7 +211,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SRAVBAWV
 
-[Document13]
+[Document11]
 DocumentPath=МПСУ.687254.22-01.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -262,7 +228,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AHHYQYMO
 
-[Document14]
+[Document12]
 DocumentPath=Project Outputs for МПСУ.464421.22-01\МПСУ.464421.22-01.xls
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -279,7 +245,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document13]
 DocumentPath=МПСУ.464421.22-01.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -296,7 +262,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document14]
 DocumentPath=Project Outputs for МПСУ.464421.22-01\МПСУ.464421.22-01_ПЭ3.xls
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -313,7 +279,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document15]
 DocumentPath=Project Outputs for МПСУ.464421.22-01\МПСУ.464421.22-01_ВП.xls
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -472,7 +438,7 @@ Value=Модуль Базовой Станции Приемопередающи�
 
 [Parameter35]
 Name=Наименование1
-Value=Модуль Базовой Станции 
+Value=Модуль Базовой Станции
 
 [Parameter36]
 Name=Наименование2

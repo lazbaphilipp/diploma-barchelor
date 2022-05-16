@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      Filip
+HostName                       DESKTOP-BSJ4SHB
+ProcessIdentifier              5048
+ProcessCreationTime_UTC        1652528454
+ProcessCreationTime_Readable   Sat May 14 14:40:54 2022 RTZ 2 (зима)
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\ADS\diploma_barchelor_wrk\diploma_barchelor_lib\coupler\schematic\sch.oa.cdslck
+TimeEditLocked                 Sun May 15 14:11:54 2022 RTZ 2 (зима)
