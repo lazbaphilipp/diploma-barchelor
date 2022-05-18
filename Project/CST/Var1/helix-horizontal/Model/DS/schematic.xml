@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.5" Seed="22" Grid="25">
+    <BasePath>D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\CST\Var1\helix-horizontal\Model\DS</BasePath>
+    <Block Id="1" ForeignId="24669128" Class="MWSSCHEM" ImageIndex="1">
+        <Size Height="150" Width="150"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1(Port1)</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label="Port1"/>
+            </Ports>
+        </Pins>
+        <Image FileName="../3D/Model.dib" Scale="AutoFit">
+            <Size Height="392" Width="512"/>
+        </Image>
+        <Pos X="100" Y="0"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+    <Link Id="7">
+        <Connection Pin="0" Ref="1" Type="Pin"/>
+        <Connection Id="19" Type="Junction"/>
+        <Route>
+            <Pos X="5" Y="0"/>
+            <Pos X="-150" Y="0"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Block Id="8" ForeignId="262531425" Class="IND" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left"/>
+            <Pin Index="0" Port="1" BlockPosition="Right"/>
+            <Ports>
+                <Port Name="" Label=""/>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Transform m12="-1" m21="1" m22="0" m11="0"/>
+        <Pos X="-150" Y="125"/>
+        <Label>1 n</Label>
+        <ToolTip>Inductor IND2</ToolTip>
+    </Block>
+    <Block Id="10" ForeignId="84078881" Class="GND">
+        <Size Height="50" Width="50"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Top"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-150" Y="250"/>
+        <ToolTip>Ground GND1</ToolTip>
+    </Block>
+    <Link Id="11">
+        <Connection Pin="0" Ref="10" Type="Pin"/>
+        <Connection Pin="0" Ref="8" Type="Pin"/>
+        <Route>
+            <Pos X="-150" Y="230"/>
+            <Pos X="-150" Y="195"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Block Id="12" ForeignId="3728032" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1" Options="">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Ports>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-500" Y="0"/>
+        <Label>1</Label>
+        <ToolTip>External Port 1</ToolTip>
+    </Block>
+    <Block Id="18" ForeignId="38099414" Class="RES">
+        <Size Height="50" Width="100"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left"/>
+            <Pin Index="0" Port="1" BlockPosition="Right"/>
+            <Ports>
+                <Port Name="" Label=""/>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-275" Y="0"/>
+        <Label>50</Label>
+        <ToolTip>Resistor RES1</ToolTip>
+    </Block>
+    <Junction Id="19" Fixed="0">
+        <Pos X="-150" Y="0"/>
+    </Junction>
+    <Link Id="20">
+        <Connection Pin="1" Ref="18" Type="Pin"/>
+        <Connection Id="19" Type="Junction"/>
+        <Route>
+            <Pos X="-205" Y="0"/>
+            <Pos X="-150" Y="0"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="21">
+        <Connection Id="19" Type="Junction"/>
+        <Connection Pin="1" Ref="8" Type="Pin"/>
+        <Route>
+            <Pos X="-150" Y="0"/>
+            <Pos X="-150" Y="55"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="22">
+        <Connection Pin="0" Ref="18" Type="Pin"/>
+        <Connection Pin="0" Ref="12" Type="Pin"/>
+        <Route>
+            <Pos X="-345" Y="0"/>
+            <Pos X="-450" Y="0"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+</SchematicTopology>

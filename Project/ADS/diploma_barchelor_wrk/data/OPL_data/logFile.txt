@@ -4,25 +4,28 @@ hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
 
 Pt DC convergence is used.
 Warning detected by hpeesofsim during TRAN analysis `SP1'.
-    COMPONENT `X1.X1.em_data':
+    COMPONENT `X4.X1.em_data':
        Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
 Warning detected by hpeesofsim during TRAN analysis `SP1'.
-    COMPONENT `X1.X1.em_data':
+    COMPONENT `X4.X1.em_data':
        S-parameter passivity is enforced.
+Warning detected by hpeesofsim during TRAN analysis `SP1'.
+    COMPONENT `X1.X1.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
 
 SP SP1[1] <diploma_barchelor_lib:OPL:schematic>   freq=(861 MHz->871 MHz)
-Warning detected by hpeesofsim during SP analysis `SP1'.
-    The DC (0 Hz) value has not been specified in the Touchstone file
-    'D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'.
-Warning detected by hpeesofsim during SP analysis `SP1'.
-    Data in the Touchstone file `D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'
-    does not cover the requested value of `freq'.
-    Therefore, the required data was obtained by extrapolation.
 Warning detected by hpeesofsim during SP analysis `SP1'.
     The DC (0 Hz) value has not been specified in the Touchstone file
     'D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/BPF.s2p'.
 Warning detected by hpeesofsim during SP analysis `SP1'.
     Data in the Touchstone file `D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/BPF.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The DC (0 Hz) value has not been specified in the Touchstone file
+    'D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `D:/Users/Filip/Desktop/Stuffdy/Diploma/diploma-barchelor/Project/ADS/diploma_barchelor_wrk/data/S_Params/balun.s3p'
     does not cover the requested value of `freq'.
     Therefore, the required data was obtained by extrapolation.
 Warning detected by hpeesofsim during SP analysis `SP1'.
@@ -35,5 +38,5 @@ Warning detected by hpeesofsim during SP analysis `SP1'.
 
 
 Resource usage:
-  Total stopwatch time     =     0.55 seconds.
+  Total stopwatch time     =     0.53 seconds.
 

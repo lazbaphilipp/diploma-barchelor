@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ÌÏÑÓ.687251.22-01.PcbDoc   18.05.2022  7:23:07
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : ÌÏÑÓ.687251.22-01Ò5Ìèçì00-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : ÌÏÑÓ.687251.22-01Ò5Ìèçì00-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             12        PTH        38.66mm (1.52inch)
+T2      0.4mm (16mil)                                             Round             143       PTH        459.81mm (18.10inch)
+T3      0.6mm (24mil)                                             Slot              2         PTH        15.43mm (0.61inch)
+T4      0.85mm (33mil)                                            Round             2         PTH        5.00mm (0.20inch)
+T5      1mm (39mil)                                               Round             12        PTH        30.48mm (1.20inch)
+T6      1.1mm (43mil)                                             Round             14        PTH        94.30mm (3.71inch)
+T7      2.4mm (94mil)                                             Round             4         PTH        85.84mm (3.38inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              189
+
+Total Processing Time (hh:mm:ss) : 00:00:00

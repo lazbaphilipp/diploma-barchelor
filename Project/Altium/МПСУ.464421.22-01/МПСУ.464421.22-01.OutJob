@@ -1,0 +1,331 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=МПСУ.464421.22-01.OutJob
+Description=
+TargetOutputMedium=Т5М
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=PDF24
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Э3
+OutputMedium1_Type=Publish
+OutputMedium2=СБ ПУ
+OutputMedium2_Type=Publish
+OutputMedium3=СБ/Чертеж ПП
+OutputMedium3_Type=Publish
+OutputMedium4=Д1
+OutputMedium4_Type=Publish
+OutputMedium5=Board Assembly
+OutputMedium5_Type=Publish
+OutputMedium6=Т5М
+OutputMedium6_Type=GeneratedFiles
+OutputType1=Schematic Print
+OutputName1=Э3
+OutputCategory1=Documentation
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=1
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=False|ShowParamSet=False|ShowProbe=False|ShowBlanket=False|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=False|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
+OutputType2=PCBDrawing
+OutputName2=СБ ПУ
+OutputCategory2=Documentation
+OutputDocumentPath2=МПСУ.464421.22-01СБ.PCBDwf
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=1
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=PCBDrawing
+OutputName3=СБ ПП
+OutputCategory3=Documentation
+OutputDocumentPath3=МПСУ.687254.22-01СБ.PCBDwf
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=1
+OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCBDrawing
+OutputName4=Д1 ПП
+OutputCategory4=Documentation
+OutputDocumentPath4=МПСУ.687254.22-01Д1.PCBDwf
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=1
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputCategory5=Fabrication
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=1
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16777218~1,16777219~1,16777220~1,16777221~1,16842751~1,16973835~1,16973831~1,16908293~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=Y:\Мегафон\Астро-Д1-2\Проектирование\МРЛ\Передатчик\Макеты\Модулятор\Modulator.PcbDoc
+OutputType6=NC Drill
+OutputName6=NC Drill Files
+OutputCategory6=Fabrication
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=1
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=2
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=Y:\Мегафон\Астро-Д1-2\Проектирование\МРЛ\Передатчик\Макеты\Модулятор\Modulator.PcbDoc
+OutputType7=Assembly
+OutputName7=Assembly Drawings
+OutputCategory7=Assembly
+OutputDocumentPath7=
+OutputVariantName7=
+OutputEnabled7=0
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=1
+OutputEnabled7_OutputMedium6=0
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name2=OutputConfigurationParameter2
+Configuration7_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Assembly|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name3=OutputConfigurationParameter3
+Configuration7_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name4=OutputConfigurationParameter4
+Configuration7_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name5=OutputConfigurationParameter5
+Configuration7_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical7|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name6=OutputConfigurationParameter6
+Configuration7_Item6=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Bottom Assembly|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name7=OutputConfigurationParameter7
+Configuration7_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name8=OutputConfigurationParameter8
+Configuration7_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+Configuration7_Name9=OutputConfigurationParameter9
+Configuration7_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical8|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=Q:\Libs\Templates_Defaults\PCB_Default.PcbDoc
+PcbPrintPreferences7=
+
+[PublishSettings]
+OutputFilePath1=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\
+ReleaseManaged1=1
+OutputBasePath1=Project Outputs for МПСУ.464421.22-01
+OutputPathMedia1=
+OutputPathMediaValue1==OutputName
+OutputPathOutputer1=
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=Job1.PDF
+OutputFileNameMulti1==UZELxObozna4enie+ 'Э3' + 'изм' + UZELxIZMxE3
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1=
+OpenOutput1=1
+PromptOverwrite1=1
+PublishMethod1=1
+ZoomLevel1=50
+FitSCHPrintSizeToDoc1=1
+FitPCBPrintSizeToDoc1=1
+GenerateNetsInfo1=1
+MarkPins1=1
+MarkNetLabels1=1
+MarkPortsId1=1
+GenerateTOC1=0
+ShowComponentParameters1=0
+GlobalBookmarks1=1
+PDFACompliance1=PDF/A-1b
+PDFVersion1=1.4
+OutputFilePath2=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for МПСУ.464421.22-01
+OutputPathMedia2=
+OutputPathMediaValue2==OutputName
+OutputPathOutputer2=
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=Job1.PDF
+OutputFileNameMulti2==UZELxObozna4enie + 'СБ' + 'изм' + UZELxIZMxSB
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=1
+PromptOverwrite2=1
+PublishMethod2=1
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=1
+FitPCBPrintSizeToDoc2=1
+GenerateNetsInfo2=0
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=0
+ShowComponentParameters2=0
+GlobalBookmarks2=0
+PDFACompliance2=PDF/A-1b
+PDFVersion2=1.4
+OutputFilePath3=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for МПСУ.464421.22-01
+OutputPathMedia3=
+OutputPathMediaValue3==OutputName
+OutputPathOutputer3=
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=Job1.PDF
+OutputFileNameMulti3==PCBxObozna4enie + PCBxTYPExSB + 'изм' + PCBxIZMxSB
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=1
+PromptOverwrite3=1
+PublishMethod3=1
+ZoomLevel3=50
+FitSCHPrintSizeToDoc3=1
+FitPCBPrintSizeToDoc3=1
+GenerateNetsInfo3=0
+MarkPins3=1
+MarkNetLabels3=1
+MarkPortsId3=1
+GenerateTOC3=0
+ShowComponentParameters3=0
+GlobalBookmarks3=0
+PDFACompliance3=Disabled
+PDFVersion3=Default
+OutputFilePath4=\\82.179.184.242\Personal\Свидерский\ПРМ4К_изм2_test\Project Outputs for АЕСН.469335.023изм2\
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for МПСУ.464421.22-01
+OutputPathMedia4=
+OutputPathMediaValue4==OutputName
+OutputPathOutputer4=
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=Job1.PDF
+OutputFileNameMulti4==PCBxObozna4enie + 'Д1' + 'изм' + PCBxIZMxD1
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=1
+PromptOverwrite4=1
+PublishMethod4=1
+ZoomLevel4=50
+FitSCHPrintSizeToDoc4=1
+FitPCBPrintSizeToDoc4=1
+GenerateNetsInfo4=0
+MarkPins4=1
+MarkNetLabels4=1
+MarkPortsId4=1
+GenerateTOC4=0
+ShowComponentParameters4=0
+GlobalBookmarks4=0
+PDFACompliance4=Disabled
+PDFVersion4=Default
+OutputFilePath5=Q:\Libs\Templates_Defaults\Project Outputs for PCB_Project_Default\
+ReleaseManaged5=1
+OutputBasePath5=Project Outputs for МПСУ.464421.22-01
+OutputPathMedia5=
+OutputPathMediaValue5==OutputName
+OutputPathOutputer5=
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=Job1.PDF
+OutputFileNameMulti5==DataSource + ' ' + Assembly
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=1
+PromptOverwrite5=1
+PublishMethod5=1
+ZoomLevel5=50
+FitSCHPrintSizeToDoc5=1
+FitPCBPrintSizeToDoc5=1
+GenerateNetsInfo5=0
+MarkPins5=1
+MarkNetLabels5=1
+MarkPortsId5=1
+GenerateTOC5=0
+ShowComponentParameters5=0
+GlobalBookmarks5=0
+PDFACompliance5=Disabled
+PDFVersion5=Default
+OutputFilePath6=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\МПСУ.464421.22-01Т5Мизм00\
+ReleaseManaged6=1
+OutputBasePath6=Project Outputs for МПСУ.464421.22-01
+OutputPathMedia6==PCBxObozna4enie + 'Т5М' + 'изм' + PCBxIZMxT5M
+OutputPathMediaValue6==PCBxObozna4enie + 'Т5М' + 'изм' + PCBxIZMxT5M
+OutputPathOutputer6=
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6==PCBxObozna4enie + 'Т5М' + 'изм' + PCBxIZMxT5M
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=0
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\
+OpenOutputs1=1
+RelativeOutputPath2=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\
+OpenOutputs2=1
+RelativeOutputPath3=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\
+OpenOutputs3=1
+RelativeOutputPath4=\\82.179.184.242\Personal\Свидерский\ПРМ4К_изм2_test\Project Outputs for АЕСН.469335.023изм2\
+OpenOutputs4=1
+RelativeOutputPath5=Q:\Libs\Templates_Defaults\Project Outputs for PCB_Project_Default\
+OpenOutputs5=1
+RelativeOutputPath6=D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\Project Outputs for МПСУ.464421.22-01\МПСУ.464421.22-01Т5Мизм00\
+OpenOutputs6=0
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=1
+OpenNCDrillOutput6=1
+OpenIPCOutput6=0
+EnableReload6=0
+

@@ -1,5 +1,5 @@
 jobName=EmPpMsgs
 jobType=emprep
-designName=diploma_barchelor_lib:coupler_em:layout
+designName=diploma_barchelor_lib:LPF_SCH:layout
 ruleFilePath=
 addInfo="EM preprocessor messages displayed as DRC errors"

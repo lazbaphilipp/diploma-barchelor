@@ -1,0 +1,36 @@
+\documentclass[a4paper,14pt]{article}
+
+\input{include/preamble}
+
+\usepackage[figure,table]{totalcount}
+
+\author{Лазба Филипп}
+\title{Система управления и телеметрии на основе технологий IoT}
+\date{\today}
+
+\renewcommand{\baselinestretch}{1.15} % put the factor in the second argument 
+\usepackage{ragged2e}
+\justifying
+
+\begin{document}
+	\include{include/title}
+	\include{include/annotation}
+	\tableofcontents{}
+	\include{include/terms-and-abbreviations}
+	\include{include/introduction}
+	\input{include/task}
+	\input{include/base-station-development}
+	\input{include/mobile-end-node-development}
+	
+	\section{Формирование документации.} \label{sect:project-docs}
+	
+	С использованием Altium Draftsman, TDD и инструмента создания чертежей Solidworks была сформирована документация на устройство. Вся документация выложена в открытом доступе в репозитории проекта. 
+	
+	\input{include/antenna-development}
+	\input{include/parameter-measurment}
+	\input{include/system-calculations}
+	\input{include/conclusions}	
+	\include{include/references}
+	\input{include/system-calculations-code}
+	
+\end{document}

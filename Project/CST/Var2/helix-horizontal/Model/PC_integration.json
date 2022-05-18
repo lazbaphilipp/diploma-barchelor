@@ -1,0 +1,69 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "Linear_Spiral_cst_torrus_h",
+         "type": "float",
+         "value": 6.35
+      },
+      {
+         "name": "Linear_Spiral_cst_torrus_ra",
+         "type": "float",
+         "value": 5.0
+      },
+      {
+         "name": "Linear_Spiral_cst_torrus_ri",
+         "type": "float",
+         "value": 5.0
+      },
+      {
+         "name": "Linear_Spiral_cst_torrus_phi",
+         "type": "float",
+         "value": 4.37
+      },
+      {
+         "name": "Linear_Spiral_cst_torrus_N",
+         "type": "float",
+         "value": 5.0
+      },
+      {
+         "name": "Linear_Spiral_cst_torrus_orientation",
+         "type": "float",
+         "value": 0.0
+      },
+      {
+         "name": "spline1_1_cst_torrus_h",
+         "type": "float",
+         "value": 10.53
+      },
+      {
+         "name": "spline1_1_cst_torrus_ra",
+         "type": "float",
+         "value": 3.0
+      },
+      {
+         "name": "spline1_1_cst_torrus_ri",
+         "type": "float",
+         "value": 3.0
+      },
+      {
+         "name": "spline1_1_cst_torrus_phi",
+         "type": "float",
+         "value": 3.0
+      },
+      {
+         "name": "spline1_1_cst_torrus_N",
+         "type": "float",
+         "value": 9.0
+      },
+      {
+         "name": "spline1_1_cst_torrus_orientation",
+         "type": "float",
+         "value": 0.0
+      }
+   ],
+   "outputVariables": []
+}

@@ -45,108 +45,8 @@
   </pin>
   <pin>
     <name>P4</name>
-    <net>P4</net>
+    <net>N__11</net>
     <layout>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <polygon>
-          <loop>
-            <point>
-              <x>0.009295</x>
-              <y>-0.01465</y>
-            </point>
-            <point>
-              <x>0.0098725</x>
-              <y>-0.014655</y>
-            </point>
-            <point>
-              <x>0.00519</x>
-              <y>-0.014655</y>
-            </point>
-            <point>
-              <x>-0.00896</x>
-              <y>-0.00648</y>
-            </point>
-            <point>
-              <x>-0.00939</x>
-              <y>-0.0057</y>
-            </point>
-            <point>
-              <x>-0.01209</x>
-              <y>-0.0057</y>
-            </point>
-            <point>
-              <x>-0.012135</x>
-              <y>-0.01569</y>
-            </point>
-            <point>
-              <x>0.010445</x>
-              <y>-0.01569</y>
-            </point>
-            <point>
-              <x>0.010445</x>
-              <y>-0.01466</y>
-            </point>
-            <point>
-              <x>0.01045</x>
-              <y>-0.01466</y>
-            </point>
-            <point>
-              <x>0.01045</x>
-              <y>-0.0143</y>
-            </point>
-            <point>
-              <x>0.01005</x>
-              <y>-0.0143</y>
-            </point>
-          </loop>
-        </polygon>
-      </shape>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <polygon>
-          <loop>
-            <point>
-              <x>-0.012135</x>
-              <y>0.005925</y>
-            </point>
-            <point>
-              <x>-0.01209</x>
-              <y>-0.004065</y>
-            </point>
-            <point>
-              <x>-0.00939</x>
-              <y>-0.004065</y>
-            </point>
-            <point>
-              <x>-0.00896</x>
-              <y>-0.003285</y>
-            </point>
-            <point>
-              <x>0.00519</x>
-              <y>0.00489</y>
-            </point>
-            <point>
-              <x>0.0093008</x>
-              <y>0.00489</y>
-            </point>
-            <point>
-              <x>0.010045</x>
-              <y>0.004545</y>
-            </point>
-            <point>
-              <x>0.010445</x>
-              <y>0.004545</y>
-            </point>
-            <point>
-              <x>0.010445</x>
-              <y>0.005925</y>
-            </point>
-          </loop>
-        </polygon>
-      </shape>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
@@ -226,6 +126,34 @@
             </point>
           </loop>
         </polygon>
+      </shape>
+    </layout>
+  </pin>
+  <pin>
+    <name>P5</name>
+    <net>N__13</net>
+    <layout>
+      <shape>
+        <layer>1</layer>
+        <purpose>-1</purpose>
+        <point>
+          <x>-0.0125907</x>
+          <y>-0.00485</y>
+        </point>
+      </shape>
+    </layout>
+  </pin>
+  <pin>
+    <name>P6</name>
+    <net>N__13</net>
+    <layout>
+      <shape>
+        <layer>1</layer>
+        <purpose>-1</purpose>
+        <point>
+          <x>-0.0146</x>
+          <y>-0.00485</y>
+        </point>
       </shape>
     </layout>
   </pin>

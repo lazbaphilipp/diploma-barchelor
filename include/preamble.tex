@@ -1,0 +1,211 @@
+
+%%% Работа с русским языком
+\usepackage[english,russian]{babel}   %% загружает пакет многоязыковой вёрстки
+\usepackage{fontspec}      %% подготавливает загрузку шрифтов Open Type, True Type и др.
+\defaultfontfeatures{Ligatures={TeX},Renderer=Basic}  %% свойства шрифтов по умолчанию
+\setmainfont[Ligatures={TeX,Historic}]{Times New Roman} %% задаёт основной шрифт документа
+\setsansfont{Arial}                    %% задаёт шрифт без засечек
+\setmonofont{Courier New}
+\usepackage{indentfirst}
+\frenchspacing
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+\renewcommand{\epsilon}{\ensuremath{\varepsilon}}
+\renewcommand{\phi}{\ensuremath{\varphi}}
+\renewcommand{\kappa}{\ensuremath{\varkappa}}
+\renewcommand{\le}{\ensuremath{\leqslant}}
+\renewcommand{\leq}{\ensuremath{\leqslant}}
+\renewcommand{\ge}{\ensuremath{\geqslant}}
+\renewcommand{\geq}{\ensuremath{\geqslant}}
+\renewcommand{\emptyset}{\varnothing}
+
+%%% Работа с картинками
+\usepackage{graphicx}  % Для вставки рисунков
+\graphicspath{%
+	{images/BS-design},
+	{images/MM-design},
+	{images/Components},
+	{images/Antenna-design},
+	{images/System-design},
+	{images/Metrology}
+}  % папки с картинками
+%\usepackage{subfig}
+\setlength\fboxsep{3pt} % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки \fbox{}
+\usepackage{wrapfig} % Обтекание рисунков текстом
+\usepackage[lflt]{floatflt}
+\usepackage{subcaption}
+\usepackage[labelfont=bf]{caption}
+\captionsetup{justification=centering,singlelinecheck=false}
+\renewcommand\thesubfigure{\asbuk{subfigure}}
+\counterwithin{figure}{section}
+\usepackage{float}
+
+% Работа с графиками
+\usepackage{tikz} 
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+%%% Работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\counterwithin{table}{section}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tabularray}
+\DefTblrTemplate{caption-tag}{default}{\textbf{\tablename\hspace{0.25em}\thetable}}
+\DefTblrTemplate{caption-sep}{default}{\enskip}
+\DefTblrTemplate{caption-text}{default}{\InsertTblrText{caption}}
+
+\DefTblrTemplate{caption}{default}{
+	\raggedleft
+	\UseTblrTemplate{caption-tag}{default}
+	\UseTblrTemplate{caption-sep}{default}
+	\UseTblrTemplate{caption-text}{default}
+	
+}
+
+\DefTblrTemplate{contfoot-text}{default}{Продолжение на следующей странице}
+\SetTblrTemplate{contfoot-text}{default}
+
+\DefTblrTemplate{conthead-text}{default}{(Продолжение)}
+
+\DefTblrTemplate{conthead}{default}{
+	\UseTblrTemplate{conthead-text}{default}
+}
+
+\DefTblrTemplate{capcont}{default}{
+	\hfill
+	\UseTblrTemplate{caption-tag}{default}
+	\UseTblrTemplate{caption-sep}{default}
+	\UseTblrTemplate{caption-text}{default}
+	\UseTblrTemplate{conthead-text}{default}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multirow} % Слияние строк в таблице
+\usepackage{array}
+
+%%% Программирование
+\usepackage{etoolbox} % логические операторы
+
+%%% Страница
+\usepackage{extsizes} % Возможность сделать 14-й шрифт
+\usepackage{geometry}
+\geometry{top=20mm}
+\geometry{bottom=20mm}
+\geometry{left=30mm}
+\geometry{right=15mm}
+%%%
+\righthyphenmin=2
+
+%%%
+\usepackage{tocloft}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections
+
+%%% Ссылки
+%\usepackage[superscript]{cite} % Ссылки в верхних индексах
+%\usepackage[nocompress]{cite} % 
+\usepackage{csquotes} % Еще инструменты для ссылок
+%\renewcommand{\refname}{Список источников}
+%\addto\captionsrussian{\def\refname{Список источников}}
+
+\usepackage[%
+backend=biber,% движок
+bibencoding=utf8,% кодировка bib файла
+sorting=none,% настройка сортировки списка литературы
+style=gost-numeric,% стиль цитирования и библиографии (по ГОСТ)
+language=autobib,% получение языка из babel/polyglossia, default: autobib % если ставить autocite или auto, то цитаты в тексте с указанием страницы, получат указание страницы на языке оригинала
+autolang=other,% многоязычная библиография
+clearlang=true,% внутренний сброс поля language, если он совпадает с языком из babel/polyglossia
+defernumbers=true,% нумерация проставляется после двух компиляций, зато позволяет выцеплять библиографию по ключевым словам и нумеровать не из большего списка
+sortcites=true,% сортировать номера затекстовых ссылок при цитировании (если в квадратных скобках несколько ссылок, то отображаться будут отсортированно, а не абы как)
+doi=false,% Показывать или нет ссылки на DOI
+isbn=false,% Показывать или нет ISBN, ISSN, ISRN
+mincitenames=3,
+maxcitenames=3,
+maxbibnames=3,
+]{biblatex}
+
+\addbibresource{include/references.bib}
+
+\DefineBibliographyStrings{russian}{%
+		bibliography = {Список источников},
+}
+
+%\renewcommand{\baselinestretch}{1.15}
+%\usepackage{setspace} % Интерлиньяж
+%\spacing{1.15}
+%\onehalfspacing % Интерлиньяж 1.5
+%\doublespacing % Интерлиньяж 2
+%\singlespacing % Интерлиньяж 1
+
+\usepackage{lastpage} % Узнать, сколько всего страниц в документе.
+
+
+\usepackage{soul} % Модификаторы начертания
+\usepackage{hyperref}
+\hypersetup{%
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,
+	urlcolor=cyan,
+	pdftitle={ВКР},
+	bookmarks=true,
+	pdfpagemode=FullScreen,
+}
+
+
+%\renewcommand{\familydefault}{\sfdefault} % Начертание шрифта
+
+\usepackage{multicol} % Несколько колонок
+
+
+\usepackage{titlesec}
+\titleformat{\section}{\large\normalfont\bfseries}{\thesection.}{0.2em}{}
+
+\titleformat{\subsection}{\large\normalfont\bfseries}{\thesection.}{0.2em}{}
+\titleformat{\subsection}{\large\normalfont\bfseries\filcenter}{}{0.4em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries}{}{0.4em}{}
+
+
+
+%%% Заголовки
+\providecommand\phantomsection{}
+%\newcommand\schap[1]{\chapter*{#1} \addcontentsline{toc}{chapter}{#1} \phantomsection}
+\newcommand\ssect[1]{\section*{#1} \phantomsection \addcontentsline{toc}{section}{#1} \markboth{#1}{#1}}
+\newcommand{\rwn}{\the\numexpr\value{rownum}-1\relax}
+
+
+
+\renewcommand{\epsilon}{\ensuremath{\varepsilon}}
+\renewcommand{\phi}{\ensuremath{\varphi}}
+\renewcommand{\kappa}{\ensuremath{\varkappa}}
+\renewcommand{\le}{\ensuremath{\leqslant}}
+\renewcommand{\leq}{\ensuremath{\leqslant}}
+\renewcommand{\ge}{\ensuremath{\geqslant}}
+\renewcommand{\geq}{\ensuremath{\geqslant}}
+\renewcommand{\emptyset}{\varnothing}
+
+\newcommand{\bhline}[1]{\noalign{\hrule height #1pt}}
+
+\usepackage{titlesec}
+\titleformat{\section}{\Large\normalfont\bfseries}{\arabic{section}.}{0.5ex}{}
+\titleformat{\subsection}{\large\normalfont\bfseries}{\arabic{section}.\arabic{subsection}.}{0.5ex}{}
+\titleformat{\subsubsection}{\normalfont\bfseries}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}{0.5ex}{}
+
+\renewcommand{\theenumii}{\arabic{enumi}.}
+\renewcommand{\theenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\theenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+
+%\usepackage{xassoccnt}
+%\NewTotalDocumentCounter{totalfigures}
+%\NewTotalDocumentCounter{totaltables}
+%\DeclareAssociatedCounters{figure}{totalfigures}
+%\DeclareAssociatedCounters{table}{totaltables}
+
+\usepackage{listings}
+
+
+

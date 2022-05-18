@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\Altium\DiplomaLZP_1\лояс.687254.22-01.PcbDoc
+Date         : 17.05.2022
+Time         : 7:29:45
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 131mmx56mm
+    Components on board, 215
+count : 2

@@ -1,0 +1,77 @@
+{
+    "parameters": [
+        {
+            "descr": "Coil's height",
+            "expr": "6.3499999999999996",
+            "name": "Linear_Spiral_cst_torrus_h",
+            "value": "6.3499999999999996"
+        },
+        {
+            "descr": "Coil's major radius",
+            "expr": "5",
+            "name": "Linear_Spiral_cst_torrus_ra",
+            "value": "5"
+        },
+        {
+            "descr": "Coil's minor radius",
+            "expr": "5",
+            "name": "Linear_Spiral_cst_torrus_ri",
+            "value": "5"
+        },
+        {
+            "descr": "Coil's segmentation angle",
+            "expr": "4.3700000000000001",
+            "name": "Linear_Spiral_cst_torrus_phi",
+            "value": "4.3700000000000001"
+        },
+        {
+            "descr": "Coil's Nr of turns",
+            "expr": "5",
+            "name": "Linear_Spiral_cst_torrus_N",
+            "value": "5"
+        },
+        {
+            "descr": "Coil's Orientation: 0 clockwise, 1 anti-clockwise",
+            "expr": "0",
+            "name": "Linear_Spiral_cst_torrus_orientation",
+            "value": "0"
+        },
+        {
+            "descr": "Coil's height",
+            "expr": "10.529999999999999",
+            "name": "spline1_1_cst_torrus_h",
+            "value": "10.529999999999999"
+        },
+        {
+            "descr": "Coil's major radius",
+            "expr": "3",
+            "name": "spline1_1_cst_torrus_ra",
+            "value": "3"
+        },
+        {
+            "descr": "Coil's minor radius",
+            "expr": "3",
+            "name": "spline1_1_cst_torrus_ri",
+            "value": "3"
+        },
+        {
+            "descr": "Coil's segmentation angle",
+            "expr": "3",
+            "name": "spline1_1_cst_torrus_phi",
+            "value": "3"
+        },
+        {
+            "descr": "Coil's Nr of turns",
+            "expr": "9",
+            "name": "spline1_1_cst_torrus_N",
+            "value": "9"
+        },
+        {
+            "descr": "Coil's Orientation: 0 clockwise, 1 anti-clockwise",
+            "expr": "0",
+            "name": "spline1_1_cst_torrus_orientation",
+            "value": "0"
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2020.1 - Oct 21 2019 - ACIS 29.0.1 -
+[Author]
+Filip
+[Mesh Cells]
+210,040
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:helix-horizontal.cst?4cc9e098f423b73052402e692dd4de10?39236:numberofparameters=6:port=1>mode=1>zre=0>zim=0:::linear_spiral_cst_torrus_n?linear_spiral_cst_torrus_h?linear_spiral_cst_torrus_orientation?linear_spiral_cst_torrus_phi?linear_spiral_cst_torrus_ra?linear_spiral_cst_torrus_ri
+[Comment]

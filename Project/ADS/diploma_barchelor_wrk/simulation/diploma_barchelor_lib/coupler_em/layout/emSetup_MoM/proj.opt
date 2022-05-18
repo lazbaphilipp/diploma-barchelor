@@ -1,7 +1,7 @@
 simulationMode 1;
 simulationTemperature 298.15;
 # simDir "D:\Users\Filip\Desktop\Stuffdy\Diploma\diploma-barchelor\Project\ADS\diploma_barchelor_wrk\simulation\diploma_barchelor_lib\coupler_em\layout\emSetup_MoM";
-# simTag "M220413082554";
+# simTag "M220521125730";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;

@@ -4,4 +4,4 @@ MODEL: RF, Layout, 0, 10, 20, 45, 0, 1;
 SUBSTRATE: definedInState;
 NROFPARAM: 0;
 NROFSAMPLES: 1;
-SAMPLEFILE: data.000.sio;
+SAMPLEFILE: data.001.sio;

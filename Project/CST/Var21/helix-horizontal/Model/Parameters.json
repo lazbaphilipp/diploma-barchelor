@@ -1,0 +1,41 @@
+{
+    "parameters": [
+        {
+            "descr": "Coil's height",
+            "expr": "10.529999999999999",
+            "name": "Linear_Spiral_cst_torrus_h",
+            "value": "10.529999999999999"
+        },
+        {
+            "descr": "Coil's major radius",
+            "expr": "1.5",
+            "name": "Linear_Spiral_cst_torrus_ra",
+            "value": "1.5"
+        },
+        {
+            "descr": "Coil's minor radius",
+            "expr": "1.5",
+            "name": "Linear_Spiral_cst_torrus_ri",
+            "value": "1.5"
+        },
+        {
+            "descr": "Coil's segmentation angle",
+            "expr": "5",
+            "name": "Linear_Spiral_cst_torrus_phi",
+            "value": "5"
+        },
+        {
+            "descr": "Coil's Nr of turns",
+            "expr": "9",
+            "name": "Linear_Spiral_cst_torrus_N",
+            "value": "9"
+        },
+        {
+            "descr": "Coil's Orientation: 0 clockwise, 1 anti-clockwise",
+            "expr": "0",
+            "name": "Linear_Spiral_cst_torrus_orientation",
+            "value": "0"
+        }
+    ],
+    "version": 1
+}

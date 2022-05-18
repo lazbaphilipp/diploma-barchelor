@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [лояс.687251.22-01.PcbDoc]
+   Generated File[лояс.687251.22-01р5лХГЛ00-RoundHoles-Plated.TXT]
+   Generated File[лояс.687251.22-01р5лХГЛ00-SlotHoles-Plated.TXT]
+   Generated File[лояс.687251.22-01р5лХГЛ00.LDP]
+   Generated File[лояс.687251.22-01р5лХГЛ00.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 7:23:07 On 18.05.2022
